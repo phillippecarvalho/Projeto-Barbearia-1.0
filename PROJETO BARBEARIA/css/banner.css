@@ -1,0 +1,8 @@
+.banner {
+    position: relative;
+}
+
+.banner__imagem {
+    width: 100%;
+    height: 500px;
+}

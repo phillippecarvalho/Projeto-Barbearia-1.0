@@ -1,0 +1,53 @@
+.antes__about {
+    position: relative;
+}
+
+.imagem__antes-about {
+    width: 100%;
+    height: 700px;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card {
+    background-color: var(--branco);
+}
+
+.about__barbearia {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--preto);
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding-top: 10em;
+}
+
+.about__titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 80px;
+    color: var(--preto);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+}
+
+.about__descrição {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--preto);
+    text-align: center;
+}
+
+.assinatura__imagem {
+    position: relative;
+    width: 30%;
+    padding: 5em 30em;
+}

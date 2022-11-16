@@ -1,0 +1,42 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./sobre.css);
+@import url(./service.css);
+@import url(./contato.css);
+@import url(./rodapé.css);
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --marrom: #f5bb67;
+    --fonte-principal: "Montserrat";
+    --fonte-secundaria: "Roboto"
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: var(--branco);
+}
+
+.mapa__principal {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--preto);
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.mapa__conteudo {
+    width: 940px;
+    margin: 0 auto;
+}

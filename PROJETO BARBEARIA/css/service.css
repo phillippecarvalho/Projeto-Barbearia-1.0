@@ -1,0 +1,41 @@
+.card__services-descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__services {
+    background-color: var(--marrom);
+}
+
+.services__barbearia {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--preto);
+    text-transform: uppercase;
+    padding: 2.5em;
+    text-align: center;
+    align-items: center;
+}
+
+.services__titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--preto);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 4em;
+}
+
+.services__texto {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 24px;  
+    color: var(--preto);
+    text-transform: uppercase;
+    padding: 2em 3em;
+    display: inline-block;  
+    margin-left: 70px;
+}
